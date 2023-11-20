@@ -13,7 +13,7 @@ if (isset($_POST['send'])) {
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
     $mail->username = 'reubenmoturim@gmail.com'; // your gmail.
-    $mail->password = 'aeha aguy jtln qvqp'; // your gmail app password.
+    $mail->password = 'vzqq ejcq tity pyzx'; // your gmail app password.
     $mail->SMTPSecure = 'ssl';
     $mail->port = 465;
 
@@ -32,7 +32,7 @@ if (isset($_POST['send'])) {
     "
     <script>
     alert('Sent Successfully');
-    document.location.href ='index.php';
+    document.location.href ='contactus.php';
     </script>
     ";
 }
